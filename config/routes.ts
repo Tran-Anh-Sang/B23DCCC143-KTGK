@@ -1,4 +1,7 @@
-﻿export default [
+﻿import component from '@/locales/en-US/component';
+import path from 'path';
+
+export default [
 	{
 		path: '/user',
 		layout: false,
@@ -35,6 +38,12 @@
 		name: 'RandomUser',
 		component: './RandomUser',
 		icon: 'ArrowsAltOutlined',
+	},
+	{
+		path: '/employee-management',
+		name: 'EmployeeManagement',
+		component: './EmployeeManagement',
+		icon: 'SolutionOutlined',
 	},
 
 	// DANH MUC HE THONG

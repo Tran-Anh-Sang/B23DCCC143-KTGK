@@ -22,6 +22,15 @@ export const initialStateConfig = {
 	loading: <></>,
 };
 
+export const dva = {
+	// config: {
+	// 	onError(e: Error) {
+	// 	message.error(e.message);
+	// 	},
+	// },
+	models: [require('./models/EmployeeManagement/employee').default],
+};
+
 /**
  * @see  https://umijs.org/zh-CN/plugins/plugin-initial-state
  * // Tobe removed
