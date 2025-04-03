@@ -1,7 +1,4 @@
-﻿import component from '@/locales/en-US/component';
-import path from 'path';
-
-export default [
+﻿export default [
 	{
 		path: '/user',
 		layout: false,
